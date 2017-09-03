@@ -1,0 +1,24 @@
+{
+  "name": "Basic-Portfolio",
+  "version": "1.0.0",
+  "description": "Personal website detailing my interests, background, and experience.  Website made responsive using CSS3 media queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lai-joyce/Basic-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lai-joyce/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/lai-joyce/Basic-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodemailer": "^4.1.0"
+  }
+}
