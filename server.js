@@ -3,6 +3,7 @@ var nodemailer = require("nodemailer");
 var bodyParser = require("body-parser");
 var path = require("path");
 var app = express();
+var port = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -13,9 +14,9 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use(express.static("public"));
 
-app.listen(3000, function() {
-	console.log("App listening on Port 3000");
-});
+// app.listen(3000, function() {
+// 	console.log("App listening on Port 3000");
+// });
 
 
 const transport = nodemailer.createTransport({
