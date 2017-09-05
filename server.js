@@ -3,7 +3,10 @@ var nodemailer = require("nodemailer");
 var bodyParser = require("body-parser");
 var path = require("path");
 var app = express();
-var port = process.env.PORT || 3000;
+// var port = process.env.PORT || 3000;
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port");
+});
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
