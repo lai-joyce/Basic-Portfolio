@@ -46,7 +46,7 @@ app.post("/email/send", function(req, res) {
         if (error) {
             console.log(error);
         }
-        res.redirect("/contact.html");
+        res.redirect("/confirm.html");
     });
 
 	
